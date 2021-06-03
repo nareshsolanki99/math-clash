@@ -10,6 +10,8 @@
 #sub-container{
     width: 50%;
     height: 80%;
+    min-width: 70vw;
+    min-height: 70vh;
     background-color: #0a81ab;
     border-radius: 8px;
     display: flex;
