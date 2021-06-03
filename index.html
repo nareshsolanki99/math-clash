@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mathclash.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body onload="startGame()">
+    <div id="main-container">
+        <div id="sub-container">
+            <div id="heading-container">
+            </div>
+            <div id="game-container">
+                <div id="result-container">
+                   <div id="score-block"> Your Score: <label id="score-label"></label></div>
+                    <div><button class="action-buttons" onclick="replayGame()">Replay</button>
+                    <button class="action-buttons" onclick="closeGame()">Exit</button></div>
+                </div>
+                <div id="display-container">
+                    <div id="number-block"></div>
+                    <div id="score-timer-block">
+                        <div id="score-container"><label>Score:</label><label id="score" class="counter-label">00</label></div>
+                        <div id="timer-container"><label>Timer:</label><label id="timer" class="counter-label"></label></div>
+                    </div>
+                    <div id = "sum-block">0</div>
+                </div>
+                <div id="keypad-container">
+                    <div id="cell1" onclick="sumUp(1)" class=num-cell></div>
+                    <div id="cell2" onclick="sumUp(2)" class=num-cell></div>
+                    <div id="cell3" onclick="sumUp(3)" class=num-cell></div>
+                    <div id="cell4" onclick="sumUp(4)" class=num-cell></div>
+                    <div id="cell5" onclick="sumUp(5)" class=num-cell></div>
+                    <div id="cell6" onclick="sumUp(6)" class=num-cell></div>
+                    <div id="cell7" onclick="sumUp(7)" class=num-cell></div>
+                    <div id="cell8" onclick="sumUp(8)" class=num-cell></div>
+                    <div id="cell9" onclick="sumUp(9)" class=num-cell></div>
+                    <div id="cell10" onclick="sumUp(10)" class=num-cell></div>
+                    <div id="cell11" onclick="sumUp(11)" class=num-cell></div>
+                    <div id="cell12" onclick="sumUp(12)" class=num-cell></div>
+                    <div id="cell13" onclick="sumUp(13)" class=num-cell></div>
+                    <div id="cell14" onclick="sumUp(14)" class=num-cell></div>
+                    <div id="cell15" onclick="sumUp(15)" class=num-cell></div>
+                    <div id="cell16" onclick="sumUp(16)" class=num-cell></div>
+                    <div id="cell17" onclick="sumUp(17)" class=num-cell></div>
+                    <div id="cell18" onclick="sumUp(18)" class=num-cell></div>
+                    <div id="cell19" onclick="sumUp(19)" class=num-cell></div>
+                    <div id="cell20" onclick="sumUp(20)" class=num-cell></div>
+                    <div id="cell21" onclick="sumUp(21)" class=num-cell></div>
+                    <div id="cell22" onclick="sumUp(22)" class=num-cell></div>
+                    <div id="cell23" onclick="sumUp(23)" class=num-cell></div>
+                    <div id="cell24" onclick="sumUp(24)" class=num-cell></div>
+                    <div id="cell25" onclick="sumUp(25)" class=num-cell></div>
+                    <div id="cell26" onclick="sumUp(26)" class=num-cell></div>
+                    <div id="cell27" onclick="sumUp(27)" class=num-cell></div>
+                    <div id="cell28" onclick="sumUp(28)" class=num-cell></div>
+                    <div id="cell29" onclick="sumUp(29)" class=num-cell></div>
+                    <div id="cell30" onclick="sumUp(30)" class=num-cell></div>
+                    <div id="cell31" onclick="sumUp(31)" class=num-cell></div>
+                    <div id="cell32" onclick="sumUp(32)" class=num-cell></div>
+                    <div id="cell33" onclick="sumUp(33)" class=num-cell></div>
+                    <div id="cell34" onclick="sumUp(34)" class=num-cell></div>
+                    <div id="cell35" onclick="sumUp(35)" class=num-cell></div>
+                    <div id="cell36" onclick="sumUp(36)" class=num-cell></div>
+                </div>
+            </div>
+            <div id="creator-container">
+               <h3><span>Created by: </span><span id="creator-name">Naresh Solanki</span><h3>      
+            </div>
+        </div>
+    <div>
+    <script src="mathclash.js"></script>
+</body>
+</html>
